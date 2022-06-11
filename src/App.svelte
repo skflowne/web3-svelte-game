@@ -1,5 +1,5 @@
 <script>
-    import Monster from "./components/Monster.svelte"
+    import Monster from "./components/Robot.svelte"
 </script>
 
-<main><Monster /></main>
+<main><Monster monster={{ dna: "0101" }} /></main>
